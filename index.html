@@ -51,7 +51,7 @@
           </p>
 
           <div class="hero__actions">
-            <a class="btn btn--primary" href="#projects">Ver proyectos</a>
+            <a class="btn btn--primary" href="projects.html">Ver proyectos</a>
             <a class="btn btn--ghost" id="btnLinkedIn" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
 
@@ -124,6 +124,16 @@
             <input id="projectSearch" type="search" placeholder="Buscar (ej: react, expo, api...)" autocomplete="off" />
           </label>
         </div>
+
+        <h3 class="subhead">Destacados</h3>
+          <div class="grid grid--2" id="featuredGrid" aria-live="polite"></div>
+
+          <div id="allProjectsWrap" style="display:none;">
+            <h3 class="subhead" id="all-projects" style="margin-top:26px;">Todos</h3>
+            <div class="projects__controls">
+              <!-- aquí van tus filtros + search tal cual ya los tienes -->
+          </div>
+
 
         <div class="grid grid--2" id="projectsGrid" aria-live="polite"></div>
         <p class="muted small" id="projectsCount" style="margin-top:10px;"></p>
