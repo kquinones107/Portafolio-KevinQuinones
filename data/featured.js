@@ -28,7 +28,7 @@ export const FEATURED = [
     title: "ClickInmediato",
     role: "Web",
     highlights: ["Landing/Producto", "Optimización UI", "Responsive"],
-    image: "assets/img/projects/clickInmediato.png",
+    image: "assets/img/projects/ClickInmediato.png",
     demo: ""
   },
   {
